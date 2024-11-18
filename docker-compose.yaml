@@ -1,0 +1,8 @@
+services:
+  pb-template:
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./migrations:/migrations
